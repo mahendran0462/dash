@@ -1,0 +1,21 @@
+.over {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.over h1 {
+    margin-top: 5%;
+    color: blue;
+}
+
+.doc {
+    margin: 10% 25%;
+    pad: 0;
+    width: 50%;
+    text-align: center;
+}
+
+.doc p {
+    font-weight: bold;
+}
