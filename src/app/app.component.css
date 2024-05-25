@@ -9,11 +9,17 @@
 .content {
     margin: 0% 25%;
     width: 50%;
-    text-align: center;
-    justify-content: center;
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
 }
 
-.content .strong {
+.second {
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+}
+
+.second .strong {
     padding-top: 2%;
     font-size: 25px;
     font-family: verdana;
