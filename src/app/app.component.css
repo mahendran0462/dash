@@ -3,49 +3,20 @@
     padding: 0;
     height: 95vh;
     text-align: center;
-    background-image: url('../assets/images/bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    justify-content: center;
 }
 
-.over .strong {
+.content {
+    margin: 0% 25%;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}
+
+.content .strong {
     padding-top: 2%;
-    color: rgb(255, 0, 128);
-    text-shadow: 2px 2px 5px rgb(255, 231, 231);
     font-size: 25px;
-    font-family: georgia;
+    font-family: verdana;
     font-weight: bold;
     line-height: 1.5;
-}
-
-.img {
-    margin: 0% 42%;
-    width: 16.5%;
-    padding: 10px;
-    border: 1px solid lightgray;
-    border-radius: 16px;
-    animation: box 1s infinite;
-    box-shadow: 7px 5px 5px white;
-}
-
-@keyframes box {
-    0% {
-        background-color: lightcoral;
-    }
-
-    25% {
-        background-color: lightgreen;
-    }
-
-    50% {
-        background-color: lightpink;
-    }
-
-    75% {
-        background-color: lightskyblue;
-    }
-
-    100% {
-        background-color: limegreen;
-    }
 }
