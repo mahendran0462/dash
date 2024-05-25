@@ -9,8 +9,7 @@
 .content {
     margin: 0% 25%;
     width: 50%;
-    display: grid;
-    grid-template-rows: 25% 50% 25%;
+    ;
 }
 
 .second {
