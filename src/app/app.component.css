@@ -1,24 +1,12 @@
-.over {
+.content {
     margin: 0;
     padding: 0;
-    height: 95vh;
-    text-align: center;
+    width: 100%;
     justify-content: center;
-}
-
-.content {
-    margin: 0% 25%;
-    width: 50%;
-    ;
-}
-
-.second {
-    margin: 0;
-    padding: 2%;
     text-align: center;
 }
 
-.second .strong {
+.content .strong {
     padding-top: 2%;
     font-size: 25px;
     font-family: verdana;
